@@ -470,7 +470,8 @@
 			cal-id = <ACPM_DVFS_CPUCL1>;
 			dm-type = <DM_CPU_CL0>;
 
-			min-freq = <227500>;
+			max-freq = <1898000>;
+			min-freq = <455000>;
 
 			/* PM QoS Class ID*/
 			pm_qos-min-class = <3>;
@@ -499,7 +500,6 @@
 						   715000  676000
 						   598000  421000
 						   455000       0
-						   227500       0
 						   >;
 				};
 				mif-skew {
@@ -516,8 +516,8 @@
 			cal-id = <ACPM_DVFS_CPUCL0>;
 			dm-type = <DM_CPU_CL1>;
 
-			max-freq = <2496000>;
-			min-freq = <370500>;
+			max-freq = <2574000>;
+			min-freq = <741000>;
 
 
 			/* PM QoS Class ID*/
@@ -551,8 +551,7 @@
 						  1066000  546000
 						   962000  421000
 						   858000  421000
-						   741000  421000
-						   370500  421000 >;
+						   741000  421000 >;
 				};
 				mif-skew {
 					guidance;

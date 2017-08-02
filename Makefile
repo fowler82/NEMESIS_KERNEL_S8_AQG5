@@ -255,7 +255,7 @@ SUBARCH := $(shell uname -m | sed -e s/i.86/x86/ -e s/x86_64/x86/ \
 #ARCH		?= $(SUBARCH)
 #CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
 ARCH            ?= arm64
-CROSS_COMPILE   ?= ../Toolchain/aarch64-cortex_a53-linux-gnueabi-uber-6.4.1/bin/aarch64-cortex_a53-linux-gnueabi-
+CROSS_COMPILE   ?= /home/geiti94/android/toolchain/linaro-7.1.1/bin/aarch64-linux-gnu-
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)

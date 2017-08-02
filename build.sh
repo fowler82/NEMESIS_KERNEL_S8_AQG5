@@ -1,7 +1,7 @@
 #!/bin/bash
 # kernel build script by Tkkg1994 v0.6 (optimized from apq8084 kernel source)
 
-export MODEL=dream2lte
+export MODEL=dreamlte
 export VARIANT=eur
 export ARCH=arm64
 export BUILD_CROSS_COMPILE=/home/geiti94/android/toolchain/linaro-7.1.1/bin/aarch64-linux-gnu-
